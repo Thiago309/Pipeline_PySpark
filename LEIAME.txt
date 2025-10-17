@@ -1,0 +1,4 @@
+Passos:
+
+1. Gerar o volume de dados JSON. Abra o terminal com o caminho correspondente do seu diretorio e execute o comando: python 01-gera_json.python
+2. Preapar o banco Banco de Dados de Destino.
