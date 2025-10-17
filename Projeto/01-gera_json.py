@@ -30,5 +30,3 @@ with open(caminho_arquivo, 'w') as arquivo:
     for item in dados_exemplo:
         json.dump(item, arquivo)
         arquivo.write('\n')
-
-
