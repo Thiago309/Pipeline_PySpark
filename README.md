@@ -1,2 +1,3 @@
 # Pipeline_PySpark
-Pipeline para extrair dados, transforma e carregar os dados JSON em um banco de dados Sqlite.
+
+Script de criação de dados no formato JSON. Pipeline para extrair, transforma e carregar os dados em um banco de dados Sqlite.
