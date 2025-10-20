@@ -1,4 +1,6 @@
 Passos:
 
-1. Gerar o volume de dados JSON. Abra o terminal com o caminho correspondente do seu diretorio e execute o comando: python 01-gera_json.python
-2. Preapar o banco Banco de Dados de Destino.
+1. Gerar o volume de dados JSON. Abra o terminal com o caminho correspondente do seu diretorio e execute o comando (python 01-gera_json.python)
+2. Preparar o banco Banco de Dados de Destino (python 02-cria_database.py)
+3. Testar com error - executar o pipeline no cluster pyspark. (docker exec dsa-pyspark-master spark-submit --deploy-mode client ./apps/projeto1.py)
+4. Executar sem error o pipeline no cluster pyspark. (docker exec dsa-pyspark-master spark-submit --jars data/sqlite-jdbc-3.50.3.0.jar --deploy-mode client ./apps/projeto1.py)
